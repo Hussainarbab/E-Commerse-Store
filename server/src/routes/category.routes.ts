@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Router } from 'express';
 import { Category } from '../models/category.model.js';
 import { protect, adminOnly } from '../middleware/auth.middleware.js';

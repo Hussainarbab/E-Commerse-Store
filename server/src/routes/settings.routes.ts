@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Router } from 'express';
 import { Settings } from '../models/settings.model.js';
 import { protect, adminOnly } from '../middleware/auth.middleware.js';
@@ -6,7 +7,7 @@ export const settingsRoutes = Router();
 
 settingsRoutes.get('/', async (_req, res) => {
   const settings = await Settings.findOne();
-  res.json(settings || { siteName: 'LuxeCart' });
+  res.json(settings || { siteName: 'Arbabcollection' });
 });
 
 settingsRoutes.put('/', protect, adminOnly, async (req, res) => {

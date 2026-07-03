@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Next.js
+client/.next/
+client/out/
+
+# Build
+server/dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*
+server/.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# MongoDB memory server binaries
+mongodb-binaries/

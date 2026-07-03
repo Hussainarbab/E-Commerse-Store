@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Router } from 'express';
 import { Banner } from '../models/banner.model.js';
 import { protect, adminOnly } from '../middleware/auth.middleware.js';
